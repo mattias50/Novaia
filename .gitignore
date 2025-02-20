@@ -1,0 +1,19 @@
+# Data directories
+data/
+app/data/
+
+# PostgreSQL data
+app/data/postgres/
+app/data/plandex/
+
+# Environment files
+.env
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store

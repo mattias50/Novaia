@@ -1,0 +1,14 @@
+{
+  "name": "plandex",
+  "shutdownAction": "stopContainer",
+  "customizations": {
+    "codespaces": {
+      "openFiles": []
+    }
+  },
+  "settings": {
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000
+  },
+  "postStartCommand": "echo 'Container started, optimizing for resources'"
+}

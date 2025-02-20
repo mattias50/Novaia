@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "data/orgs": true,
+    "app/data/postgres": true
+  },
+  "files.watcherExclude": {
+    "data/orgs/**": true,
+    "app/data/postgres/**": true
+  }
+}

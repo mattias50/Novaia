@@ -1,0 +1,17 @@
+name: Codespace Prebuild
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - 'data/**'
+      - 'app/data/**'
+
+jobs:
+  prebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Configure Codespace
+        run: |
+          echo "Configuring prebuild environment"
+          # Add any specific setup steps here if needed
